@@ -52,6 +52,7 @@ class LoginPageViewModel: viewModelDelegate {
             }
             print(count)
         }
+        count = UserDefaults.standard.integer(forKey: "Score")
     }
 
  
