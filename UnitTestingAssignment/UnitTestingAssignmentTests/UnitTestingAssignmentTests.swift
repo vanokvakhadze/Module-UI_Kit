@@ -107,7 +107,6 @@ final class UnitTestingAssignmentTests: XCTestCase {
         cart.allproducts = [Product]()
         cart.addProduct(product: Product())
         cart.selectedProducts = [Product]()
-        let totalPrice = cart.totalPrice
         XCTAssertNotNil(cart.totalPrice)
     }
     
